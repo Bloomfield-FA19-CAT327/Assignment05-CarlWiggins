@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ded233ecc71331d4cbfdb39cba46081c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {fileID: 1600669219956046, guid: ea9eb647dd0104bee8af3f243a320556, type: 3}
+  - respawnPoint: {fileID: 1873923016790054, guid: 1ccc0e4341d180f428fc51ddcab55eea,
+      type: 3}
+  - collectable: {instanceID: 0}
+  - winningParticles: {instanceID: 0}
+  - hud: {instanceID: 0}
+  - hud2: {instanceID: 0}
+  - gameOverUI: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
