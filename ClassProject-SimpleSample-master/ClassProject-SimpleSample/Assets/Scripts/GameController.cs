@@ -5,6 +5,7 @@ public class GameController : MonoBehaviour {
 	public GameObject player;
 	public GameObject respawnPoint;
     public GameObject collectable;
+    public GameObject winWall;
 
 	public ParticleSystem winningParticles;
 
@@ -28,6 +29,7 @@ public class GameController : MonoBehaviour {
 	void Update () {
 		if (isRunning) {
 			time += Time.deltaTime;
+          //  hud3.text + " the Gate is opened"
 
             hud2.text = "Death Count " + deathCount;
 
@@ -52,6 +54,7 @@ public class GameController : MonoBehaviour {
 		player.gameObject.SetActive(true);
 
         collectable.gameObject.SetActive(true);
+        winWall.gameObject.SetActive(true);
     }
 
 	public void InitGame() {
