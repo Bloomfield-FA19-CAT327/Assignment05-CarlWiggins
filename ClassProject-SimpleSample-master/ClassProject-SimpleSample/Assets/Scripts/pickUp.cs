@@ -21,7 +21,8 @@ public class pickUp : MonoBehaviour
     {
         collectable.gameObject.SetActive(false);
         winWall.gameObject.SetActive(false);
-        
-        
+        gameController.hud3.text = (" Gate: open");
+
+
     }
 }

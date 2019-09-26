@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour {
 
 	public Text hud;
     public Text hud2;
+   // public Text hud3;
 	public Canvas gameOverUI;
 
     //how many times the player dies
@@ -29,7 +30,7 @@ public class GameController : MonoBehaviour {
 	void Update () {
 		if (isRunning) {
 			time += Time.deltaTime;
-          //  hud3.text + " the Gate is opened"
+           // hud3.text = (" Gate: Closed");
 
             hud2.text = "Death Count " + deathCount;
 
